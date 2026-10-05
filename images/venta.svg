@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Tarimas nuevas para venta">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f5f7"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c99b"/>
+      <stop offset="40%" stop-color="#c4a574"/>
+      <stop offset="100%" stop-color="#a07840"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <g transform="translate(120 80)">
+    <g fill="url(#wood)" stroke="#8b6914" stroke-width="2">
+      <rect x="0" y="380" width="660" height="32" rx="3"/>
+      <rect x="0" y="330" width="660" height="32" rx="3"/>
+      <rect x="0" y="280" width="660" height="32" rx="3"/>
+      <rect x="30" y="230" width="600" height="32" rx="3"/>
+      <rect x="60" y="180" width="540" height="32" rx="3"/>
+    </g>
+    <g fill="#6b4f2a" opacity="0.6">
+      <rect x="40" y="412" width="16" height="100"/>
+      <rect x="310" y="412" width="16" height="100"/>
+      <rect x="604" y="412" width="16" height="100"/>
+    </g>
+    <text x="330" y="520" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#6e6e73" font-weight="600">Tarima estándar 120×100 cm</text>
+  </g>
+</svg>

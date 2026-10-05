@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogiPallet — Venta y renta de tarimas</title>
+    <meta
+      name="description"
+      content="LogiPallet: venta y renta de tarimas certificadas. Entrega rápida, inventario nacional y soluciones para tu cadena de suministro."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="nav">
+      <nav class="nav-inner">
+        <a href="#inicio" class="nav-logo" aria-label="LogiPallet inicio">LogiPallet</a>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#venta">Venta</a></li>
+          <li><a href="#renta">Renta</a></li>
+          <li><a href="#cobertura">Cobertura</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#cotizar" class="nav-cta">Cotizar</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="nav-mobile" id="navMobile" hidden>
+        <a href="#inicio">Inicio</a>
+        <a href="#venta">Venta</a>
+        <a href="#renta">Renta</a>
+        <a href="#cobertura">Cobertura</a>
+        <a href="#cotizar" class="nav-mobile-cta">Cotizar</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-content reveal">
+          <p class="hero-eyebrow">Logística que sostiene tu carga</p>
+          <h1 class="hero-title">LogiPallet</h1>
+          <p class="hero-subtitle">
+            Venta y renta de tarimas. Calidad industrial, entrega confiable.
+          </p>
+          <div class="hero-links">
+            <a href="#venta" class="link-arrow">Ver catálogo</a>
+            <a href="#cotizar" class="link-arrow">Solicitar cotización</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal is-visible" data-delay="200">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <figure class="hero-photo">
+            <img
+              src="https://images.unsplash.com/photo-1594571194668-7112042d8f54?auto=format&fit=crop&w=1200&q=80"
+              alt="Tarimas de madera apiladas en almacén"
+              width="1200"
+              height="800"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </figure>
+        </div>
+        <p class="hero-caption reveal" data-delay="400">
+          Tarimas de madera, plástico y exportación · Entrega en 24–48 h en zona metropolitana*
+        </p>
+      </section>
+
+      <section class="statement statement--dark">
+        <div class="statement-inner reveal">
+          <h2 class="statement-headline">
+            La base de tu operación,<br />lista cuando la necesitas.
+          </h2>
+          <p class="statement-copy">
+            Inventario permanente, tarimas reacondicionadas y nuevas.<br class="hide-mobile" />
+            <a href="#venta" class="inline-link">Conoce nuestros tipos de tarima</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery" aria-label="Galería de tarimas">
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img
+              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+              alt="Almacén logístico con mercancía sobre tarimas"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+            <figcaption>Almacenaje y distribución</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-delay="100">
+            <img
+              src="https://images.unsplash.com/photo-1578575437130-527eed3abb40?auto=format&fit=crop&w=800&q=80"
+              alt="Montacargas moviendo pallets en bodega"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+            <figcaption>Operación en planta</figcaption>
+          </figure>
+          <figure class="gallery-item reveal" data-delay="200">
+            <img
+              src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80"
+              alt="Filas de tarimas en centro de distribución"
+              width="800"
+              height="600"
+              loading="lazy"
+            />
+            <figcaption>Centros de distribución</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="feature-grid" id="venta">
+        <article class="feature-card feature-card--light reveal">
+          <div class="feature-text">
+            <h3>Venta de tarimas</h3>
+            <p>
+              Madera tratada, plástico higiénico y tarimas para exportación. Stock inmediato y precios por volumen.
+            </p>
+            <a href="#cotizar" class="link-arrow">Cotizar compra</a>
+          </div>
+          <div class="feature-art">
+            <img
+              src="https://images.unsplash.com/photo-1604881991728-f8add4665cdf?auto=format&fit=crop&w=900&q=80"
+              alt="Tarimas de madera nuevas listas para venta"
+              width="900"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+        </article>
+
+        <article class="feature-card feature-card--dark reveal" id="renta">
+          <div class="feature-text">
+            <h3>Renta flexible</h3>
+            <p>
+              Planes por mes o por proyecto. Recolección incluida, reposición rápida y control de inventario en línea.
+            </p>
+            <a href="#cotizar" class="link-arrow link-arrow--light">Armar plan de renta</a>
+          </div>
+          <div class="feature-art feature-art--dark">
+            <img
+              src="https://images.unsplash.com/photo-1494412570257-9c22d5c22f94?auto=format&fit=crop&w=900&q=80"
+              alt="Camión de entrega y renta de tarimas"
+              width="900"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+        </article>
+      </section>
+
+      <section class="specs">
+        <div class="specs-header reveal">
+          <h2>Diseñado para almacenes,<br />plantas y exportadores.</h2>
+        </div>
+        <ul class="specs-list">
+          <li class="spec-item reveal">
+            <span class="spec-value">+15 k</span>
+            <span class="spec-label">Tarimas en inventario</span>
+          </li>
+          <li class="spec-item reveal" data-delay="80">
+            <span class="spec-value">24 h</span>
+            <span class="spec-label">Entrega express*</span>
+          </li>
+          <li class="spec-item reveal" data-delay="160">
+            <span class="spec-value">ISO / NOM</span>
+            <span class="spec-label">Tarimas certificadas</span>
+          </li>
+          <li class="spec-item reveal" data-delay="240">
+            <span class="spec-value">Reciclaje</span>
+            <span class="spec-label">Programa de retiro y reparación</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="ecosystem" id="cobertura">
+        <div class="ecosystem-copy reveal">
+          <h2>Cobertura que crece<br />contigo.</h2>
+          <p>
+            Red de patios y centros de distribución en las principales rutas logísticas. Una sola cotización,
+            abastecimiento en varios puntos.
+          </p>
+          <a href="#cotizar" class="link-arrow">Ver zonas de servicio</a>
+        </div>
+        <div class="ecosystem-visual reveal" data-delay="150">
+          <img
+            class="ecosystem-visual__main"
+            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=700&q=80"
+            alt="Operación logística en almacén"
+            width="700"
+            height="525"
+            loading="lazy"
+          />
+          <img
+            class="ecosystem-visual__accent"
+            src="https://images.unsplash.com/photo-1594571194668-7112042d8f54?auto=format&fit=crop&w=400&q=80"
+            alt="Detalle de tarimas apiladas"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="cta" id="cotizar">
+        <div class="cta-inner reveal">
+          <h2>Tu próximo embarque empieza aquí.</h2>
+          <p>Venta desde $280 MXN · Renta desde $45 MXN / tarima / mes*</p>
+          <div class="cta-buttons">
+            <a href="mailto:ventas@logipallet.demo" class="btn btn--primary">Cotizar ahora</a>
+            <a href="tel:+525500000000" class="btn btn--secondary">Llamar a ventas</a>
+          </div>
+          <p class="cta-footnote">* Precios orientativos. Sujetos a tipo de tarima, volumen y ubicación.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-note">
+          LogiPallet — venta y renta de tarimas para industria, comercio y exportación.
+        </p>
+        <div class="footer-links">
+          <a href="#">Privacidad</a>
+          <a href="#">Condiciones de renta</a>
+          <a href="#">Facturación</a>
+        </div>
+        <p class="footer-copy">Copyright © 2026 LogiPallet. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

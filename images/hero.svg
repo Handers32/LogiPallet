@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Tarimas apiladas en almacén">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d3d40"/>
+      <stop offset="100%" stop-color="#1d1d1f"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4a574"/>
+      <stop offset="50%" stop-color="#a8844f"/>
+      <stop offset="100%" stop-color="#8b6914"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect x="0" y="520" width="1200" height="230" fill="#2c2c2e"/>
+  <g opacity="0.15">
+    <line x1="0" y1="540" x2="1200" y2="540" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="580" x2="1200" y2="580" stroke="#fff" stroke-width="1"/>
+    <line x1="0" y1="620" x2="1200" y2="620" stroke="#fff" stroke-width="1"/>
+  </g>
+  <!-- stack center -->
+  <g transform="translate(420 180)" filter="url(#soft)">
+    <g fill="url(#wood)" stroke="#6b4f2a" stroke-width="2">
+      <rect x="0" y="280" width="360" height="28" rx="2"/>
+      <rect x="0" y="240" width="360" height="28" rx="2"/>
+      <rect x="0" y="200" width="360" height="28" rx="2"/>
+      <rect x="20" y="160" width="320" height="28" rx="2"/>
+      <rect x="40" y="120" width="280" height="28" rx="2"/>
+      <rect x="60" y="80" width="240" height="28" rx="2"/>
+    </g>
+    <g fill="#5c4030" opacity="0.5">
+      <rect x="30" y="308" width="12" height="90"/>
+      <rect x="170" y="308" width="12" height="90"/>
+      <rect x="318" y="308" width="12" height="90"/>
+    </g>
+  </g>
+  <!-- stack left -->
+  <g transform="translate(80 320) scale(0.75)" opacity="0.85">
+    <g fill="url(#wood)" stroke="#6b4f2a" stroke-width="2">
+      <rect x="0" y="200" width="280" height="24" rx="2"/>
+      <rect x="0" y="168" width="280" height="24" rx="2"/>
+      <rect x="0" y="136" width="280" height="24" rx="2"/>
+      <rect x="20" y="104" width="240" height="24" rx="2"/>
+    </g>
+  </g>
+  <!-- stack right -->
+  <g transform="translate(820 260) scale(0.9)" opacity="0.9">
+    <g fill="url(#wood)" stroke="#6b4f2a" stroke-width="2">
+      <rect x="0" y="220" width="300" height="26" rx="2"/>
+      <rect x="0" y="186" width="300" height="26" rx="2"/>
+      <rect x="0" y="152" width="300" height="26" rx="2"/>
+      <rect x="0" y="118" width="300" height="26" rx="2"/>
+      <rect x="30" y="84" width="240" height="26" rx="2"/>
+    </g>
+  </g>
+  <ellipse cx="600" cy="680" rx="420" ry="40" fill="#000" opacity="0.35"/>
+</svg>

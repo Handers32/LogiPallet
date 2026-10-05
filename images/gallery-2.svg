@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Montacargas con tarima">
+  <defs>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#48484a"/>
+      <stop offset="100%" stop-color="#1c1c1e"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b8956a"/>
+      <stop offset="100%" stop-color="#8f6b3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#floor)"/>
+  <g transform="translate(280 140)">
+    <rect x="0" y="280" width="280" height="120" rx="8" fill="#ff9f0a" opacity="0.9"/>
+    <rect x="40" y="200" width="200" height="90" fill="#ffd60a" opacity="0.85"/>
+    <rect x="120" y="120" width="40" height="200" fill="#636366"/>
+    <rect x="60" y="80" width="160" height="24" fill="#48484a"/>
+    <g transform="translate(70 40)">
+      <rect x="0" y="0" width="160" height="20" fill="url(#wood)" stroke="#5c4030"/>
+      <rect x="0" y="28" width="160" height="20" fill="url(#wood)" stroke="#5c4030"/>
+      <rect x="0" y="56" width="160" height="20" fill="url(#wood)" stroke="#5c4030"/>
+      <rect x="20" y="76" width="8" height="50" fill="#3d2914"/>
+      <rect x="132" y="76" width="8" height="50" fill="#3d2914"/>
+    </g>
+    <circle cx="60" cy="400" r="36" fill="#1c1c1e" stroke="#636366" stroke-width="6"/>
+    <circle cx="220" cy="400" r="36" fill="#1c1c1e" stroke="#636366" stroke-width="6"/>
+  </g>
+</svg>
